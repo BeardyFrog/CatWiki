@@ -4,7 +4,7 @@ function pesquisar() {
     let campoPesquisa = document.getElementById("campo-pesquisa").value
     // Se o campoPesquisa fora uma string vazia
     if (campoPesquisa == ""){
-      section.innerHTML = "<p>Nada foi encontrado</p>"  
+      section.innerHTML = "<p>Digite alguma raça de gato ou alguma característica felina.</p>"  
        return
     }
     //Transforma o campo de pesquisa em minuscula
@@ -33,7 +33,7 @@ function pesquisar() {
 
       }
         if (!resultados){
-          resultados = "<p>Nada foi encontrado. </p>"
+          resultados = "<p>Nada foi encontrado. Neste site falamos apenas de gatos.</p>"
         }   
     }
   
